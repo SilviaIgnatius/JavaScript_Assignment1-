@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Two number calculation</title>
+  </head>
+
+<body>
+  <p id="add"></p>
+  <p id="multi"></p>
+  <p id="sub"></p>
+  <p id="divi"></p>
+
+<script>
+
+document.getElementById("add").innerHTML ="The addition of the two numbers is " + addNum(4,6);
+document.getElementById("multi").innerHTML ="The multiplication of the two numbers is " + multiNum(4,6);
+document.getElementById("sub").innerHTML ="The subtraction of the two numbers is " + subtractNum(4,6);
+document.getElementById("divi").innerHTML ="The division of the two numbers is " + divideNum(4,6);
+
+  var num1 , num2 ;
+  function addNum (num1,num2)
+  {
+    return (num1 + num2)
+  }
+
+
+  function multiNum (num1,num2)
+  {
+    return (num1 * num2)
+  }
+
+
+  function subtractNum (num1,num2)
+  {
+    return (num1 - num2)
+  }
+
+
+  function divideNum (num1,num2)
+  {
+    return (num1 / num2)
+  }
+
+
+
+</script>
+</body>
+</html>
